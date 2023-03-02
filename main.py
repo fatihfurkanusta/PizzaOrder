@@ -129,17 +129,17 @@ class main(QMainWindow):
                 file_write.writeheader()
                 file_write.writerows(self.database_list) 
         
-        # Butona basıldıktan sonra tekrar işlem yapılabilmesi için line ve checkboxları temizliyorum
-        self.ui.cbox_sauce_olive.setChecked(False)
-        self.ui.cbox_sauce_mushroom.setChecked(False)
-        self.ui.cbox_sauce_goatCheese.setChecked(False)
-        self.ui.cbox_sauce_meat.setChecked(False)
-        self.ui.cbox_sauce_onion.setChecked(False)
-        self.ui.cbox_sauce_corn.setChecked(False)
-        self.ui.line_name.setText("")
-        self.ui.line_id.setText("")
-        self.ui.line_credit_number.setText("")
-        self.ui.line_credit_pass.setText("")
+            # Butona basıldıktan sonra tekrar işlem yapılabilmesi için line ve checkboxları temizliyorum
+            self.ui.cbox_sauce_olive.setChecked(False)
+            self.ui.cbox_sauce_mushroom.setChecked(False)
+            self.ui.cbox_sauce_goatCheese.setChecked(False)
+            self.ui.cbox_sauce_meat.setChecked(False)
+            self.ui.cbox_sauce_onion.setChecked(False)
+            self.ui.cbox_sauce_corn.setChecked(False)
+            self.ui.line_name.setText("")
+            self.ui.line_id.setText("")
+            self.ui.line_credit_number.setText("")
+            self.ui.line_credit_pass.setText("")
         
     # Ödemeyi Tamamla Butonu metodu - end
 
